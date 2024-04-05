@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    border: 10px solid #5e6161;
+}
+#img1{
+    position: absolute;
+    margin-left: 700px;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
+h1{
+    text-align: center;
+}
+
+.part1{
+    height: 230px;
+    width: 420px;
+    border-right: dotted;
+    position: relative;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 10px;
+}
+
+.part1 h2, .part2 h2{
+    font-size: 40px;
+}
+
+.part1 p, .part2 p{
+    font-size: larger;
+}
+
+#ball{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    margin-right: -25px;
+    margin-top: -120px;
+}
+
+#ball{
+    animation: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    from{
+        transform:translateY(0px) ;
+    }
+
+    to{
+        transform: translateY(230px);
+    }
+}
+
+.part2{
+    height: 230px;
+    width: 420px;
+    position: relative;
+    margin-left: 800px;
+}
+
+#why{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4e4369;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    position: relative;
+    margin: auto;
+}
+
+.but1{
+    background-color: white;
+    border: 2px solid #5e6161;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    margin-left: 625px;
+    margin-top: -10px;
+}
+.but1 a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    
+}

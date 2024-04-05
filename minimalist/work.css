@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    border: 10px solid #5e6161;
+}
+#img1{
+    position: absolute;
+    margin-left: 700px;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+.cont{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    
+    height: 500px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 5px;
+
+}
+
+.box1{
+    border: 5px solid #c7c7c7;
+    background-image: url(54b2e472844ee8bd5d51a765_amazon.png);
+    background-size: cover;
+}
+.box2{
+    border: 5px solid #c7c7c7;
+    background-image: url(54b2e354844ee8bd5d51a74f_ebay.png);
+    background-size: cover;
+}
+
+.box3{
+    border: 5px solid #c7c7c7;
+    background-image: url(54b2e3ad844ee8bd5d51a755_bitcoin.png);
+    background-size: cover;
+}
+.box4{
+    border: 5px solid #c7c7c7;
+    background-image: url(54b2e3c5844ee8bd5d51a759_jquery.png);
+    background-size: cover;
+}
+.box5{
+    border: 5px solid #c7c7c7;
+    background-image: url(54b2e3eb2b03adb00ae93f62_microsoft.png);
+    background-size: cover;
+}
+.box6{
+    border: 5px solid #c7c7c7;
+    background-image: url(54b2e4042b03adb00ae93f65_yahoo.png);
+    background-size: cover;
+}
+.box7{
+    border: 5px solid #c7c7c7;
+    background-image: url(54b2e4192b03adb00ae93f66_volks.png);
+    background-size: cover;
+}
+.box8{
+    border: 5px solid #c7c7c7;
+    background-image: url(54b2e42dfd1016be5d473c54_youtube.png);
+    background-size: cover;
+}
+.box1:hover, .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover{
+    border: 5px solid #5e6161;
+}
+.but1{
+    background-color: white;
+    border: 2px solid #5e6161;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    margin-left: 625px;
+    margin-top: -10px;
+}
+.but1 a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    
+}
